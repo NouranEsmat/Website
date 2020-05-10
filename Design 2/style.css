@@ -1,0 +1,450 @@
+body
+{
+/*	height:6100px*/
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 300%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: coral;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 350px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 16px;}
+}
+
+.container
+{
+	width:900px;
+	margin: auto;
+}
+.clear
+{
+	clear: both;
+}
+
+/* start header */
+.feat1 butttoon {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.feat1 butttoon:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.feat1 butttoon:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.header .slider
+{
+	background-image:url(images/24008327_1262781500493866_792909851_o.jpg);
+	background-size: cover; /* CSS3 */
+	height: 400px;
+	
+}
+
+.header .slider .container  h2
+{	margin:0;
+	color:rgb(51, 155, 127);
+	position: relative;
+	top: 125px;
+	width:500px;
+	left: 400px;
+	letter-spacing: 4px;
+	font-weight: 800;
+	font-family: magneto ;
+	border-bottom: 1px solid #2b2b2b;
+	font-size: 20px;
+}
+
+.header .slider .container button:hover
+{
+	color: #cacaca;
+	border-color:#cacaca;
+	border-width: 2px;
+	cursor: pointer;
+	border-style:ridge;
+		
+}
+
+.header .navbar
+{
+	background-color: black;
+	color:#d8d8d8;
+	overflow: hidden;
+	height: 80px;
+    
+	
+}
+ .logo 
+{
+	background-color: #777777;
+	padding: 4px 9px;
+	position: relative;
+	margin-top: 17px
+	
+}
+
+
+.header .navbar h2{
+	float: left;
+	font-family: sans-serif;
+	top: 7px;
+	position: relative;
+}
+
+.header .navbar h2 span{color:coral}
+
+.header .navbar ul
+{
+	list-style: none;
+	padding-left: 0px;
+	overflow:hidden;
+	margin-top:9px ;
+	float: right;
+}
+.header .navbar ul li 
+{
+	float: left;
+	padding: 10px;
+	font-family:fantasy;
+	letter-spacing: -0.5px
+}
+
+ .navbar a
+{
+	color:#d1d1d1;
+	float: right;
+	padding: 10px;
+	font-family:fantasy;
+	letter-spacing: -0.5px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.header .navbar .container ul .active a,
+
+.header .navbar ul li a:hover
+{
+	color:coral;
+	cursor: pointer;
+}
+.header .navbar .container ul .active a
+{
+	border-bottom: 2px solid;
+	
+}
+
+
+/* end header */
+/* start features */
+.features
+{
+	overflow: hidden;
+	padding: 50px 0px 60px;
+    background-color: white;
+	
+	
+}
+.features .feat
+{
+	float: left;
+	width: 33.333%;
+	height:150px;
+	color: #c0c0c0;
+}
+
+.features .feat p
+{
+	line-height: 1.5;
+}
+.features .feat h2
+{
+	color:#747474;
+	text-transform: uppercase;
+	font-family: sans-serif
+}
+.features .feat1
+{
+	float: left;
+	width: 33.333%;
+	height:200px;
+	color: #c0c0c0;
+}
+
+.features .feat1 p
+{
+	line-height: 1.5;
+}
+.features .feat1 h2
+{
+	color:#747474;
+	text-transform: uppercase;
+	font-family: sans-serif
+}
+.features .feat2
+{
+	float: left;
+	width: 33.333%;
+	height:150px;
+	color: #c0c0c0;
+}
+
+.features .feat2 p
+{
+	line-height: 1.5;
+}
+.features .feat2 h2
+{
+	color:#747474;
+	text-transform: uppercase;
+	font-family: sans-serif
+}
+
+/*end features */
+/* start about me */
+.contact
+{
+	background-color:black;
+	overflow: hidden;
+	padding-top: 45px;
+	padding-bottom: 70px
+	
+	
+}
+.contact h2
+{
+	color: #FFF;
+	font-family: sans-serif;
+}
+.contact p
+{
+	color:#6A6E71;
+	line-height: 1.6;
+}
+
+.contact .info
+
+{
+	width: 50%;
+	float: left;
+	margin-right: 5%;
+}
+.contact .form
+{
+	width: 45%;
+	float: left;
+	padding-top: 45px
+}
+.contact p strong
+{
+	color:#D1D6DA;
+}
+.contact .form label
+{
+	color:#D1D6DA;
+	display: block;
+	margin-bottom: 10px;
+	
+}
+.contact .form input[type="text"] ,
+.contact .form input[type="email"]
+{
+	width: 90%;
+	height: 35px;
+	background-color: #5c5f62;
+	border-width: 0px;
+	margin-bottom: 30px;
+	color:white;
+	font-weight: bold;
+}
+.contact .form input[type="submit"]
+{
+	background-color: #191E22;
+	color: #d1d1d1;
+	padding: 12px 25px;
+	font-weight: bold;
+	border: none;
+	font-family: sans-serif;
+	letter-spacing: -0.5px;
+
+}
+.contact .form input[type="submit"]:hover
+{
+	background-color: #464646;
+	cursor: pointer;
+}
+.contact .form input:focus
+{
+	border: 2px solid #59c95b
+}
+.contact .form textarea
+{
+	background-color:#5c5f62;
+	border-width: 0px;
+	width:90%;
+	height:220px;
+	margin-bottom: 20px;
+	color:white;
+	font-weight: 300;
+}
+.contact .form textarea:focus
+{
+	border: 2px solid #59c95b
+}
+/* end contact me*/
+/* start footer*/
+.footer
+{
+	background-color:#191E22;
+	color: #6A6E71;
+	text-align: center;
+	padding: 20px 0px;
+	height: 70px;
+	overflow: hidden;
+}
+.footer span
+{
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	
+}
+.footer ul
+{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0px;
+	
+	
+}
+.footer ul li 
+{
+	display: inline;
+	margin-left: 10px
+
+}
+.footer ul li a
+{
+	color: grey;
+	text-decoration: none;
+}
+
+
+.footer ul li i:hover
+{
+	color: white;
+	cursor: pointer;
+}
+
+
+/* end footer*/
+/* start portfolio*/
+.portfolio
+{
+	padding: 50px 0px;
+	text-align: center;
+	
+}
+.portfolio h1
+{
+	color:#656565;
+}
+.portfolio p
+{
+	color:#8a8a8a;
+	margin-bottom: 90px;
+}
+.portfolio .our-work
+{
+	overflow: hidden;
+}
+.portfolio .container .our-work .work-img
+{
+	float: left;
+	width: 33.3333%;
+	margin: 15px 0px;
+	
+}
+.portfolio .container .our-work .work-img img
+{
+	width: 90%;
+	box-shadow:5px 5px 5px 5px;
+	
+}
+.portfolio .container .our-work .work-img img:hover
+{
+	
+	
+}
+
+/* end portfolio*/
+/* my framework*/
+.my-button
+{
+	color: #55cc57;
+	background: none;
+	border : 3px solid #55cc57;
+	font-weight: 800;
+	letter-spacing: -1px;
+	margin:10px 0 30px ;
+	padding: 10px 15px ;
+}
